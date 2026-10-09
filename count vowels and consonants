@@ -1,0 +1,9 @@
+s = input().lower()
+v = c = 0
+for x in s:
+    if x.isalpha():
+        if x in "aeiou":
+            v += 1
+        else:
+            c += 1
+print(v, c)
